@@ -32,6 +32,8 @@ hr {
     border: none;
     background-color: var(--purple-color);
     max-width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 a {
@@ -116,19 +118,27 @@ a {
 #boxes-section{
     display: flex;
     flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    max-width: var(--section-width);
+    align-items: center;
+    justify-items: center;
+    width: 100%;
 }
-#boxes{
+#titre-projets{
+    text-align: left;
+    width: 100%;
+    max-width: var(--section-width);
+    margin: 20px 0px;
+}
+.boxes{
     display: flex;
     justify-content: center;
     gap: 20px;
     align-items: center;
-    margin: 70px 0px;
+    margin: 20px 0px;
+    max-width: var(--section-width);
 }
 .box{
     text-align: left;
+    background-color: beige;
     padding:10px 20px ;
     border-radius: 20px;
     min-height: 150px;
