@@ -3,6 +3,7 @@
     --orange-color: #FFDDAB;
     --green-color: #B3E9CB;
     --red-color: #FFBFBF;
+    --section-width: 1200px;
 
 }
 @font-face {
@@ -55,7 +56,7 @@ a {
 }
 #header-div{
     width: 100%;
-    max-width: 1200px;
+    max-width: var(--section-width);
     background-color: var(--purple-color);
     display: flex;
     padding: 5px;
@@ -96,7 +97,7 @@ a {
 }
 #hero{
     width: 100%;
-    max-width: 1200px;
+    max-width: var(--section-width);
     align-items: center;
     justify-content: space-between;
     display: flex;
@@ -113,11 +114,13 @@ a {
 
 
 #boxes-section{
+    display: flex;
     flex-direction: column;
     align-content: center;
+    justify-content: center;
+    max-width: var(--section-width);
 }
 #boxes{
-    max-width: 1200px;
     display: flex;
     justify-content: center;
     gap: 20px;
