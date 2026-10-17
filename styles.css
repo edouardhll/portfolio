@@ -18,12 +18,14 @@
 
 
 body{
+    background-color: var(--bg-color);
     margin: 0;
     padding: 0;
 }
 p {
     font-family:'play';
-
+    font-size: 18px;
+    
 }
 h1, h2{
     font-family: 'play-bold';
@@ -31,10 +33,9 @@ h1, h2{
 }
 
 hr {
-    color: var(--grey-color);
     height: 2px;
     border: none;
-    background-color: var(--grey-color);
+    background-color: var(--black-color);
     max-width: 400px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -45,11 +46,13 @@ a {
 }
 
 
+
 .section{
     display: flex;
     justify-content: center;
     
 }
+
 
 /* header */
 
@@ -60,6 +63,8 @@ a {
     display: flex;
     justify-content: center;
     background-color: var(--bg2-color);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 #header-div{
     width: 100%;
@@ -100,7 +105,6 @@ a {
     justify-content: center;
     width: 100%;
     margin: 0px 0px;
-    background-color: var(--bg-color);
     min-height: 830px;
 }
 #hero{
@@ -118,23 +122,33 @@ a {
 
 
 
-/* boxes */
+/* mes projets */
 
 
 
-#boxes-section{
+.boxes-section{
+    background-color: var(--lightgrey-color);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
     width: 100%;
 }
-#titre-projets{
+#projets-title{
     text-align: left;
     width: 100%;
     max-width: var(--section-width);
     margin: 20px 0px;
 }
+
+/* mes outils */
+#outils-title{
+    text-align: left;
+    width: 100%;
+    max-width: var(--section-width);
+}
+
+/*  boxes */
 .boxes{
     display: flex;
     justify-content: center;
@@ -142,10 +156,15 @@ a {
     align-items: center;
     margin: 20px 0px;
     max-width: var(--section-width);
+    width: 100%;
+
 }
 .box{
     text-align: left;
-    background-color: beige;
+    background-color: var(--bg-color);
+    color: var(--black-color);
+    border-color: var(--bg2-color);
+    border: 50px;
     padding:10px 20px ;
     border-radius: 20px;
     min-height: 150px;
@@ -153,18 +172,16 @@ a {
     width: 100%;
 }
 .nameTitle{
-    font-family: "roboto-bold";
+    font-family: "play-bold";
+    color: var(--grey-color);
+}
+
+.hr-section{
+    background-color: var(--lightgrey-color);
+    padding: 1px; /*permet la continuité entre mes projets et mes outils*/
 
 }
-#red{
-    background-color: var(--red-color);
-}
-#orange{
-    background-color: var(--orange-color);
-}
-#green{
-    background-color: var(--green-color);
-}
+
 
 
 
@@ -180,7 +197,7 @@ a {
     margin: 0px;
 }
 #footer{
-    background-color: var(--purple-color);
+    background-color: var(--bg2-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -196,34 +213,34 @@ a {
 #footer-tarification{
     color: white;
     font-size: 40px;
-    font-family: 'roboto-light';
+    font-family: 'play';
 }
 #footer-title{
     color: #ffc166;
-    font-family: 'roboto-bold' !important;
+    font-family: 'play-bold' !important;
     letter-spacing: 2px;
     font-size: 70px;
     text-align: center;
 }
 #footer-text{
     color: white;
-    font-family: 'roboto-light';
+    font-family: 'play';
     max-width: 600px;
 }
 .white-button{
-    background-color: white;
+    background-color: var(--bg-color);
     padding: 1px 0px;
     border-radius: 45px;
     min-width: 225px;
     border-width: 2px;
     border-style:solid;
-    border-color: var(--purple-color);
-    color: #bebcf0;
+    border-color: var(--bg2-color);
+    color: var(--bg2-color);
     transition-duration: 200ms;
     
 }
 .white-button:hover{
-    background-color: var(--purple-color);
+    background-color: var(--bg2-color);
     border-color: white;
     color: white;
 }
