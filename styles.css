@@ -1,8 +1,9 @@
 :root {
-    --purple-color: #9693E6;
-    --orange-color: #FFDDAB;
-    --green-color: #B3E9CB;
-    --red-color: #FFBFBF;
+    --bg-color: #E0E2E8;
+    --lightgrey-color: #B0C0D4;
+    --bg2-color: #5DA5B3;
+    --grey-color: #394054;
+    --black-color: #1C1C1F;
     --section-width: 1200px;
 
 }
@@ -16,7 +17,10 @@
 }
 
 
-
+body{
+    margin: 0;
+    padding: 0;
+}
 p {
     font-family:'play';
 
@@ -27,10 +31,10 @@ h1, h2{
 }
 
 hr {
-    color: var(--purple-color);
+    color: var(--grey-color);
     height: 2px;
     border: none;
-    background-color: var(--purple-color);
+    background-color: var(--grey-color);
     max-width: 400px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -55,11 +59,11 @@ a {
 #header{
     display: flex;
     justify-content: center;
+    background-color: var(--bg2-color);
 }
 #header-div{
     width: 100%;
     max-width: var(--section-width);
-    background-color: var(--purple-color);
     display: flex;
     padding: 5px;
     justify-content: space-between;
@@ -67,7 +71,7 @@ a {
 }
 
 #logo{
-    max-height: 50px;
+    max-height: 70px;
 }
 
 #social{
@@ -96,6 +100,8 @@ a {
     justify-content: center;
     width: 100%;
     margin: 0px 0px;
+    background-color: var(--bg-color);
+    min-height: 830px;
 }
 #hero{
     width: 100%;
@@ -106,6 +112,7 @@ a {
 }
 #pp{
     max-width: 200px;
+    border-radius: 120px;
 }
 
 
