@@ -322,10 +322,30 @@ img{
     border-color: var(--bg2-color);
     color: var(--bg2-color);
     transition-duration: 200ms;
+    text-align: center;
     
 }
 .white-button:hover{
     background-color: var(--bg2-color);
     border-color: white;
     color: white;
+}
+
+.cv-button{
+    background-color: var(--bg2-color);
+    padding: 1px 0px;
+    border-radius: 45px;
+    min-width: 225px;
+    border-width: 2px;
+    border-style:solid;
+    transition-duration: 200ms;
+    border-color: white;
+    color: white;
+    text-align: center;
+    max-width: 100px;
+}
+.cv-button:hover{
+    background-color: var(--bg-color);
+    border-color: var(--bg2-color);
+    color: var(--bg2-color);
 }

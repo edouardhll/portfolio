@@ -13,6 +13,11 @@
                     de me réorienter dans cette voie. Sérieux et curieux, 
                     je suis toujours motivé à apprendre de nouvelles choses. 
                 </p>
+                <a href="/fichiers/cv_edouard_hillion.pdf" target="_blank">
+                    <div class="cv-button">
+                        <p>Mon CV</p>
+                    </div>
+                </a>
             </div>
             <div>
                 <img id="pp" src="img/moi.jpg" alt="Photo de profil">
