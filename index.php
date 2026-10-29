@@ -1,36 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
-</head>
-<body>
-    <section id="header" class="section">
-        <div id="header-div">
-            <div>
-                <a href="#">
-                    <img id="logo" src="img/logo.png" alt="logo">
-                </a>
-            </div>
-            <div id="social">
-                <a href="#">
-                    <img class="social" src="img/rs_linkedin_white.png" alt="lien linkedin">
-                </a>
-                <a href="#">
-                    <img class="social" src="img/rs_twitter_white.png" alt="lien twitter">
-                </a>
-                <a href="#">
-                    <img class="social "src="img/rs_whatsapp_white.png" alt="lien whatsapp">
-                </a>
-                <a href="#">
-                    <img class="social" src="img/rs_facebook_white.png" alt="lien facebook">
-                </a>
-            </div>
-        </div>
-    </section>
-
+<?php include 'header.php'; ?>
     <section id="hero-section" class="section">
         <div id="hero">
             <div>
@@ -131,17 +99,4 @@
     • Gestion de champs ACF/SCF.
     • Gestion des breakpoints responsive.
     • Migration d'un site OVH vers o2switch -->
-
-    <section id="footer">
-            <p class="footer" id="footer-start">Footer</p>
-            <p class="footer" id="footer-tarification">Penser à inclure les mentions légales</p>
-            <h2 class="footer" id="footer-title">Mentions<br>légales!</h2>
-            <p class="footer" id="footer-text">Inclure les mentions légales.</p>
-            <a class="footer" href="#">
-                <div class="white-button">
-                    <p>Me contacter</p>
-                </div>
-            </a>
-    </section>
-</body>
-</html>
+<?php include 'footer.php'; ?>
