@@ -70,7 +70,7 @@
     <section id="xp-pro-section" class="section boxes-section">
         <div id="xp-pro-div">
             <h2>Mes expériences professionnelles</h2>
-            <h3>Stage chez Passedevant</h3>
+            <a href="/passedevant.php"><h3>Stage chez Passedevant</h3></a>
             <p class="fira-code">Sites internet sur Wordpress avec Oxygen Builder</p>
             <div class="marquee">
                 <div id="passedevant">
@@ -81,7 +81,7 @@
                                 <img src="img/webpaysagiste.jpg" alt="Capture d'écran https://agencewebpaysagiste.fr/" class="passedevant-img">
                             </div>
                         </a>
-                        <a href="https://tailleur-pierre-nantes.fr/" class="passedevant-link" target="_blank">
+                        <a href="/passedevant.php#paloma" class="passedevant-link" target="_blank">
                             <div id="paloma" class="passedevant-site">
                                 <h4>Paloma</h4>
                                 <img src="img/paloma.jpg" alt="Capture d'écran paloma" class="passedevant-img">

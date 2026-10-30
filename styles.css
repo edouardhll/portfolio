@@ -148,7 +148,7 @@ img{
     margin: 20px 0px;
     max-width: var(--section-width);
     width: 100%;
-
+    
 }
 .box{
     text-align: left;
@@ -221,7 +221,7 @@ img{
     display: flex;
     gap: 20px;
     width: 100%;
-
+    
 }
 .xp-pro-box{
     gap: 20px;
@@ -262,7 +262,7 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    
 }
 .passedevant-img{
     max-width: 100%;
@@ -348,4 +348,19 @@ img{
     background-color: var(--bg-color);
     border-color: var(--bg2-color);
     color: var(--bg2-color);
+}
+
+/*passedevant*/
+
+#logo_pd{
+    max-width: 175px;
+    border-radius: 120px;
+    border: 1px;
+    border-style: solid;
+    border-color: var(--black-color);
+    padding: 10px;
+}
+#sites_pd{
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
 }
