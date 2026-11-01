@@ -75,7 +75,7 @@
             <div class="marquee">
                 <div id="passedevant">
                     <div id="passedevant-marquee" class="xp-pro-box">
-                        <a href="https://agencewebpaysagiste.fr/" class="passedevant-link" target="_blank">
+                        <a href="/passedevant.php#webpaysagiste" class="passedevant-link" target="_blank">
                             <div id="webpaysagiste" class="passedevant-site">
                                 <h4>Agence WebPaysagiste</h4>
                                 <img src="img/webpaysagiste.jpg" alt="Capture d'écran https://agencewebpaysagiste.fr/" class="passedevant-img">
@@ -87,14 +87,14 @@
                                 <img src="img/paloma.jpg" alt="Capture d'écran paloma" class="passedevant-img">
                             </div>
                         </a>
-                        <a href="https://www.successmarketing.fr/" class="passedevant-link" target="_blank">
+                        <a href="/passedevant.php#successmarketing" class="passedevant-link" target="_blank">
                             <div id="successmarketing" class="passedevant-site">
                                 <h4>Le Success Marketing</h4>
                                 <img src="img/successmarketing.jpg" alt="Capture d'écran du successmarketing" class="passedevant-img">
                             </div>
                         </a>
                     </div>
-
+                </div>
 
             </div>
         </div>
