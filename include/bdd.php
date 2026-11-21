@@ -227,24 +227,26 @@
             ],
         'button' => [
             'label' => 'Mon cv',
-            'url' => './fichiers/cv_edouard_hillion.pdf/'
+            'url' => './fichiers/cv_edouard_hillion.pdf'
             ],
         'section' => [
+            [
                "hn" => "h2",
                 'title' => 'BAC STI2D option ITEC au lycée livet',
-                'description' => "J'ai eu mon BAC STI2D (Sciences et Technologies de l'Industrie et du Développement Durable) avec <strong>mention assez bien</strong> au lycée Livet à Nantes en 2020.
+                'description' => "J'ai eu mon <strong>BAC STI2D</strong> (Sciences et Technologies de l'Industrie et du Développement Durable).
+                <br/>
+                Avec <strong>mention assez bien</strong> au lycée Livet à Nantes en 2020.
+                <br/>
                 <br/>
                 L'option ITEC (innovation technologique et éco-conception) m'a permis de développer des compétences en modélisation 3d industrielle.
                 ",
                 'img' => [
-                    'src' => 'a',
-                    'alt' => 'a'
+                    'src' => './img/livet.png',
+                    'alt' => 'logo livet'
                 ],
-                'button' => [
-                    'label' => 'a',
-                    'url' => 'a'
-                ] 
-            ],
+                'button' => null
+            ]
+        ],
         "end" => [
             "title" => "a",
             "skills" => [
