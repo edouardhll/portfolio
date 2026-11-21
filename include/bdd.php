@@ -205,20 +205,6 @@
                     'url' => 'https://github.com/edouardhll/GestionDeParcInformatique'
                 ] 
             ]
-            //modèle
-            // [
-            //    "hn" => "",
-            //     'title' => '',
-            //     'description' => "",
-            //     'img' => [
-            //         'src' => '',
-            //         'alt' => ''
-            //     ],
-            //     'button' => [
-            //         'label' => '',
-            //         'url' => ''
-            //     ] 
-            // ]
         ],
         "end" => [
             "title" => "Les compétences que j'ai validé durant ce stage",
@@ -232,5 +218,75 @@
             ]
         ]
     ];
+    $bdd['cv'] = [
+        'title' => 'Mon parcours',
+        'description' => "Voici mon parcours avant le BTS sio",
+        'img' => [
+            'src' => './img/moi.jpg',
+            'alt' => 'photo de profil'
+            ],
+        'button' => [
+            'label' => 'Mon cv',
+            'url' => './fichiers/cv_edouard_hillion.pdf/'
+            ],
+        'section' => [
+               "hn" => "h2",
+                'title' => 'BAC STI2D option ITEC au lycée livet',
+                'description' => "J'ai eu mon BAC STI2D (Sciences et Technologies de l'Industrie et du Développement Durable) avec <strong>mention assez bien</strong> au lycée Livet à Nantes en 2020.
+                <br/>
+                L'option ITEC (innovation technologique et éco-conception) m'a permis de développer des compétences en modélisation 3d industrielle.
+                ",
+                'img' => [
+                    'src' => 'a',
+                    'alt' => 'a'
+                ],
+                'button' => [
+                    'label' => 'a',
+                    'url' => 'a'
+                ] 
+            ],
+        "end" => [
+            "title" => "a",
+            "skills" => [
+                [
+                    "skill" => "✅"
+                ]
+            ]
+        ]
+    ];
+    // $bdd['modèle'] = [
+    //     'title' => '',
+    //     'description' => "",
+    //     'img' => [
+    //         'src' => '',
+    //         'alt' => ''
+    //         ],
+    //     'button' => [
+    //         'label' => '',
+    //         'url' => ''
+    //         ],
+    //     'section' => [
+    //            "hn" => "",
+    //             'title' => '',
+    //             'description' => "",
+    //             'img' => [
+    //                 'src' => '',
+    //                 'alt' => ''
+    //             ],
+    //             'button' => [
+    //                 'label' => '',
+    //                 'url' => ''
+    //             ] 
+    //         ]
+    //     "end" => [
+    //         "title" => "",
+    //         "skills" => [
+    //             [
+    //                 "skill" => "✅"
+    //             ]
+    //         ]
+    //     ]
+    // ];
     
+
 ?>
