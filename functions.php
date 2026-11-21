@@ -32,7 +32,7 @@
                     ';
                 if (isset($section['img'])) {
                     echo '
-                                <img class="projectImg" src="'.$section['img']['url'].'" alt="'.$section['img']['alt'].'">
+                                <img class="projectImg" src="'.$section['img']['src'].'" alt="'.$section['img']['alt'].'">
                     ';
                 }
                 if (isset($section['button'])) {

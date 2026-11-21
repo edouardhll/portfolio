@@ -27,7 +27,7 @@
                 </ul>
                 <p>Cette expérience m'a appris à travailler en équipe à travers la planification de tâches, mais également en réalisant ces tâches par priorité.",
                 "img" => [
-                    "url" => "./img/todopriorite.png",
+                    "src" => "./img/todopriorite.png",
                     "alt" => "todo",
                     ],
                 "button" => null
@@ -44,7 +44,7 @@
                 "title" => "Agence WebPaysagiste",
                 "description" => "Réalisation d'un site pour attirer de nouveaux clients chez Passedevant. Création d'un marquee et d'un formulaire WPforms. Le formulaire est connecté via Zapier au Discord de l'entreprise sous forme de Webhook",
                 "img" => [
-                    "url" => "./img/webpaysagiste.jpg",
+                    "src" => "./img/webpaysagiste.jpg",
                     "alt" => "Capture d'écran du site",
                     ],
                 'button' => [
@@ -58,7 +58,7 @@
                 "description" => "Gestion des pages \"Savoir-faire\" avec des champs SCF.
                         Création d'un formulaire avec WPforms.",
                 "img" => [
-                    "url" => "./img/paloma.jpg",
+                    "src" => "./img/paloma.jpg",
                     "alt" => "Capture d'écran du site",
                     ],
                 'button' => [
@@ -71,7 +71,7 @@
                 "title" => "Le Success Marketing",
                 "description" => "Début de création du site. Réalisation d'un effet \"glaçage\" pour le header ainsi que les différents éléments flottants.",
                 "img" => [
-                    "url" => "img/successmarketing.jpg",
+                    "src" => "img/successmarketing.jpg",
                     "alt" => "Capture d'écran du successmarketing",
                     ],
                 'button' => [
@@ -109,7 +109,7 @@
                 'title' => 'Mes tâches',
                 'description' => "Section à venir",
                 "img" => [
-                    "url" => "",
+                    "src" => "",
                     "alt" => "à venir",
                     ],
                 "button" => null
@@ -241,17 +241,70 @@
                 L'option ITEC (innovation technologique et éco-conception) m'a permis de développer des compétences en modélisation 3d industrielle.
                 ",
                 'img' => [
-                    'src' => './img/livet.png',
+                    'src' => "./img/livet.jpg",
                     'alt' => 'logo livet'
+                ],
+                'button' => null
+            ],
+            [
+               "hn" => "h2",
+                'title' => 'Apprenti cuisinier',
+                'description' => "
+                Restaurant La Rivière, Basse-Goulaine 2021
+                <ul>
+                    <li>Salle de 100 couverts.</li>
+                    <li>Dressage entrées et desserts.</li>
+                    <li>Application des procédures d'hygiène.</li>
+                </ul>
+                ",
+                'img' => [
+                    'src' => "./img/restaurant.jpg",
+                    'alt' => 'logo restaurant'
+                ],
+                'button' => null
+            ],
+            [
+               "hn" => "h2",
+                'title' => 'Hôte de caisse',
+                'description' => "Leclerc Pôle-Sud, Basse-Goulaine 2022-2024
+                <br/>
+                <ul> 
+                    <li>Service et renseignement auprès de la clientèle.</li>
+                    <li>Formation d'autres hôtes de caisse.</li>
+                    <li>Travail en autonomie.</li>
+                    <li>Mise en rayon.</li>
+                    <li>Tâches annexes selon les besoins du magasin.</li>
+                </ul>
+
+                ",
+                'img' => [
+                    'src' => "./img/leclerc.jpg",
+                    'alt' => 'logo leclerc'
+                ],
+                'button' => null
+            ],
+            [
+               "hn" => "h2",
+                'title' => 'Kyoshin Language Academy',
+                'description' => "Kyoshin Language Academy, Tokyo 2023
+                <ul>
+                    <li>Apprentissage de la langue japonaise.</li>
+                    <li>Enseignement intégralement en japonais.</li>
+                    <li>Mise en pratique dans la vie de tous les jours.</li>
+                </ul>
+                ",
+                'img' => [
+                    'src' => "./img/kla.png",
+                    'alt' => 'logo kla'
                 ],
                 'button' => null
             ]
         ],
         "end" => [
-            "title" => "a",
+            "title" => "Voir mon tableau de compétences",
             "skills" => [
                 [
-                    "skill" => "✅"
+                    "skill" => ""
                 ]
             ]
         ]
