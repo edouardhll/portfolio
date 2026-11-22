@@ -10,7 +10,7 @@
     <section id="header" class="section">
         <div id="header-div" class="padding">
             <div>
-                <a href="/" target="_blank">
+                <a href="/">
                     <img id="logo" src="img/logo.png" alt="logo">
                 </a>
             </div>
