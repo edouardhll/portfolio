@@ -26,36 +26,72 @@
         </div>
     </section>
 
+
+
     <section id="projets-section" class="section boxes-section">
+        <h2 id="projets-title" class="title">Comment je développe mon identité pro.</h2>
+        <div class="boxes">
+            <div class="box">
+                <a href="./myProject.php?id=cv">
+                    <h3 class="nameTitle">Mon parcours</h3>
+                    <p>Mon parcours avant de faire un BTS SIO SLAM</p>
+                </a>
+            </div>
+            <div class="box">
+                <a href="./myProject.php?id=veille">
+                    <h3 class="nameTitle">Ma veille</h3>
+                    <p>Les failles de sécurité et mises à jour PHP & L'intégration de l'IA dans les bases de données relationnelles : PostgreSQL et pgvector</p>
+                    <p>✅ Organiser son développement professionnel</p>
+                </a>
+            </div>
+            <div class="box">
+                <a href="./myProject.php?id=pro">
+                    <h3 class="nameTitle">Mon identité professionnel</h3>
+                    <p>Pour se présenter aux recruteurs, un cv ne suffit plus. Je vous présente ici comment j'utilise Linkedin et Github pour me démarquer sur le marché du travail.</p>
+                    <p>✅ Organiser son développement professionnel</p>
+                </a>
+            </div>
+        </div>
+
+    <section class="hr-section">
+        <hr />
+    </section>
         <h2 id="projets-title" class="title">Mes projets</h2>
         <div class="boxes">
             <div class="box">
                 <a href="./myProject.php?id=gdpi">
                     <h3 class="nameTitle">Gestionnaire de Parc Informatique</h3>
                     <p>Logiciel de gestion de parc informatique pour avec installeur Windows et Linux. Communique avec une base de données SQL sur MariaDB.</p>
+                    <p>✅ Gérer le patrimoine informatique</p>
+                    <p>✅ Mettre à disposition des utilisateurs un service informatique</p>
                 </a>
             </div>
             <div class="box">
                 <a href="./myProject.php?id=gestionnaireDeProjets">
                     <h3 class="nameTitle">Gestionnaire de projets</h3>
                     <p>Réalisation d'une application web en PHP, HTML, CSS, SQL pour la gestion de projets allant de la création de tâches à la gestion des utilisateurs</p>
+                    <p>✅ Mettre à disposition des utilisateurs un service informatique</p>
+                    <p>✅ Gérer le patrimoine informatique</p>
                 </a>
             </div>
             <div class="box">
                 <a href="./myProject.php?id=portfolio">
                     <h3 class="nameTitle">Portfolio</h3>
                     <p>J'ai réalisé ce portfolio en PHP, HTML, CSS. Je gère une template pour afficher mes pages qui reprennent toute la même structures.</p>
+                    <p>✅ Organiser son développement professionnel</p>
                 </a>
             </div>
             <div class="box">
                 <a href="./myProject.php?id=glpi">
                     <h3 class="nameTitle">Glpi</h3>
-                    <p>Réalisation de deux documentations pour GLPI. Technique pour l'installation et Utilisateur pour les personnes qui ne sont pas à l'aise avec l'informatique</p>
+                    <p>✅ Gérer le patrimoine informatique</p>
+                    <p>✅ Répondre aux incidents et aux demandes d'assistance et d'évolution</p>
                 </a>
             </div>
         </div>
     </section>
     
+
     <section class="hr-section">
         <hr />
     </section>

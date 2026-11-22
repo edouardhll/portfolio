@@ -87,7 +87,7 @@
                     "skill" => "✅ Travailler en mode projet"
                 ],
                 [
-                    "skill" => "✅ Développer la présence en ligne de l’organisation"
+                    "skill" => "✅ Développer la présence en ligne de l'organisation"
                 ]
                 ]
         ]

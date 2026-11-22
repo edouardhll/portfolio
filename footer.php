@@ -1,15 +1,7 @@
     <section id="footer">
             <a href="./mentionslegales.php"><p class="footer" id="footer-start">mentions légales</p></a>
-            <p class="footer" id="footer-tarification">Penser à inclure les mentions légales</p>
-            <h2 class="footer" id="footer-title">Mentions<br>légales!</h2>
-            <a href='/mentionslegales.php' target='blank_'>
-                <p class="footer" id="footer-text">Mentions légales.</p>
-            </a>
-            <a class='footer' href='mailto:edouardhll@gmail.com'>
-                <div class="white-button">
-                    <p>Me contacter</p>
-                </div>
-            </a>
+            <p class="footer" id="footer-tarification">Portfolio de Edouard Hillion</p>
+            <h2 class="footer" id="footer-title">Me contacter:</h2>
             <div><?php
         $message_retour = "";
         
@@ -50,7 +42,7 @@
             <input type="email" name="email" placeholder="Votre e-mail" required><br>
             <input type="text" name="sujet" placeholder="Sujet" required><br>
             <textarea name="message" placeholder="Votre message" rows="5" required></textarea><br>
-            <button type="submit">Envoyer</button>
+            <button type="submit" class="white-button">Envoyer</button>
         </form></div>
     </section>
 
