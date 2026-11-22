@@ -410,41 +410,133 @@ informatique
             ]
         ]
     ];
-    // $bdd['modèle'] = [
-    //     'title' => '',
-    //     'description' => "",
-    //     'img' => [
-    //         'src' => '',
-    //         'alt' => ''
-    //         ],
-    //     'button' => [
-    //         'label' => '',
-    //         'url' => ''
-    //         ],
-    //     'section' => [
-    //         [
-    //            "hn" => "",
-    //             'title' => '',
-    //             'description' => "",
-    //             'img' => [
-    //                 'src' => '',
-    //                 'alt' => ''
-    //             ],
-    //             'button' => [
-    //                 'label' => '',
-    //                 'url' => ''
-    //             ] 
-    //         ]
-    //     ],
-    //     "end" => [
-    //         "title" => "",
-    //         "skills" => [
-    //             [
-    //                 "skill" => "✅"
-    //             ]
-    //         ]
-    //     ]
-    // ];
+    $bdd['portfolio'] = [
+        'title' => 'Mon portfolio',
+        'description' => "Mon portfolio a été réalisé en PHP, HTML et CSS à la main, sans IA pour générer le code à ma place.",
+        'img' => [
+            'src' => './img/php.jpg',
+            'alt' => 'logo php'
+            ],
+        'button' => [
+            'label' => 'Voir mon code',
+            'url' => 'https://github.com/edouardhll/portfolio'
+            ],
+        'section' => [
+            [
+               "hn" => "h2",
+                'title' => 'La template',
+                'description' => "Réalisation d'une template (visible sur cette page même) afin de gagner du temps sur la réalisation des pages qui ont toute la même structure. Cette template est réalisé à l'aide d'une fonction en PHP qui vient lire un tableau avec le contenu de la page",
+                'img' => null,
+                'button' => null
+            ]
+        ],
+        "end" => [
+            "title" => "Les compétences que j'ai validé avec ce projet:",
+            "skills" => [
+                [
+                    "skill" => "✅ Organiser son
+développement
+professionnel
+"
+                ]
+            ]
+        ]
+    ];
+    $bdd['veille'] = [
+        'title' => 'Ma veille',
+        'description' => "J'ai choisi d'orienter ma veille sur les deux sujets suivant:</p>
+        <ul>
+            <li>Les failles de sécurité et mises à jour PHP</li>
+            <li>L'intégration de l'IA dans les bases de données relationnelles : PostgreSQL et pgvector</li>
+        </ul><p>
+        Ma veille est automatisée par IA. Gemini cherche les derniers articles en rapport avec mes sujets et me les places dans deux Google Sheets le matin à 7h. De cette façon, je peux me maintenir à jour dès la matin dans les transports des dernières actualités. Je fais également ma veille sur youtube avec principalement les chaines de Micode et it_connect_fr",
+        'img' => [
+            'src' => './img/gemini.png',
+            'alt' => 'logo Gemini'
+            ],
+        'button' => [
+            'label' => 'Mes compétences',
+            'url' => './fichiers/tableau.pdf'
+            ],
+        'section' => [
+            [
+               "hn" => "h2",
+                'title' => 'Les failles de sécurité et mises à jour PHP',
+                'description' => "",
+                'img' => null,
+                'button' => [
+                    'label' => 'Ma veille',
+                    'url' => 'https://docs.google.com/spreadsheets/d/1bUtzi1apqhQVYnv05jXRBUv4ld-f6zTinXWJSOVM930/edit?usp=sharing'
+                ] 
+            ],
+            [
+               "hn" => "h2",
+                'title' => "L'intégration de l'IA dans les bases de données relationnelles : PostgreSQL et pgvector",
+                'description' => "",
+                'img' => null,
+                'button' => [
+                    'label' => 'Ma veille',
+                    'url' => 'https://docs.google.com/spreadsheets/d/1JCai8GVkWRc1mcMMW3mUpBeeEtXGSoxuUvhuAHvrRR8/edit?usp=sharing'
+                ] 
+            ]
+        ],
+        "end" => [
+            "title" => "Les compétences que j'ai validé avec ma veille:",
+            "skills" => [
+                [
+                    "skill" => "✅ Organiser son
+développement
+professionnel
+"
+                ]
+            ]
+        ]
+    ];
+    $bdd['pro'] = [
+        'title' => 'Mon Linkedin et mon Github',
+        'description' => "Pour se présenter aux recruteurs, un cv ne suffit plus. Je vous présente ici comment j'utilise Linkedin et Github pour me démarquer sur le marché du travail.",
+        'img' => [
+            'src' => './img/moi.jpg',
+            'alt' => 'photo de profil'
+            ],
+        'button' => [
+            'label' => 'Mon CV',
+            'url' => './fichiers/cv_edouard_hillion.pdf'
+            ],
+        'section' => [
+            [
+               "hn" => "h2",
+                'title' => 'Mon Linkedin',
+                'description' => "Mon profil Linkedin répertorie mon parcours, mais également mes certifications Cisco. J'ai réalisé également plusieurs publications afin de montrer les différentes expériences que j'ai pu vivre pendant mon BTS allant de la participation à des salons pour présenter notre projet de groupe \"Formulama\", à la visite de l'entreprise Proginov. Les recruteurs peuvent également trouver une recommendation de mon maitre de stage chez Passedevant.",
+                'img' => null,
+                'button' => [
+                    'label' => 'Mon Linkedin',
+                    'url' => 'https://www.linkedin.com/in/edouardhll/'
+                ] 
+            ],
+            [
+               "hn" => "h2",
+                'title' => 'Mon Github',
+                'description' => "Mon profil Github présente mes différents projets avec le code commenté. Il permet aux recruteurs de se rendre directement compte de mon niveau technique.",
+                'img' => null,
+                'button' => [
+                    'label' => 'Mon Github',
+                    'url' => 'https://github.com/edouardhll'
+                ] 
+            ]
+        ],
+        "end" => [
+            "title" => "La compétence liée:",
+            "skills" => [
+                [
+                    "skill" => "✅ Organiser son
+développement
+professionnel
+"
+                ]
+            ]
+        ]
+    ];
     // $bdd['modèle'] = [
     //     'title' => '',
     //     'description' => "",
