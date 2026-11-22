@@ -309,6 +309,107 @@
             ]
         ]
     ];
+    $bdd['gestionnaireDeProjets'] = [
+        'title' => 'Gestionnaire de projets',
+        'description' => "Ce projet a pour but de développer une application web en PHP pour faire de la gestion de projets.
+        Cette application fonctionne avec une base de données en SQL avec PhpMyAdmin.
+        Les objectifs sont définis ci-dessous",
+        'img' => [
+            'src' => './img/php.jpg',
+            'alt' => 'logo PHP'
+            ],
+        'button' => [
+            'label' => 'Voir le code',
+            'url' => 'https://github.com/edouardhll/Gestionnaire-de-projets'
+            ],
+        'section' => [
+                ["hn" => "h2",
+                'title' => 'Fonctions premières:',
+                'description' => "<ul>
+                    <li>Créer des tâches.</li>
+                    <li>Priorisation des tâches.</li>
+                    <li>Attribution des tâches par rôle ou par utilisateur</li>
+                    <li>Date butoire</li>
+                    <li>Date de création et de dernière mise à jour</li>
+                    <li>Création et gestions des utilisateurs</li>
+                </ul>",
+                'img' => null,
+                'button' => null
+                ], 
+                [
+                "hn" => "h2",
+                'title' => 'Objectifs de sécurité',
+                'description' => "<ul>
+                    <li>Tous les mots de passe doivent être hachés et salés.</li>
+                    <li>Protection contre les injections SQL</li>
+                </ul>",
+                'img' => null,
+                'button' => null
+                ]],
+        "end" => [
+            "title" => "Les compétences que j'ai validé avec ce projet:",
+            "skills" => [
+                [
+                    "skill" => "✅ Mettre à
+disposition des
+utilisateurs un
+service
+informatique"
+                ],
+                [
+                    "skill" => "✅ Gérer le
+patrimoine
+informatique
+"
+                ]
+            ]
+        ]
+    ];
+    $bdd['glpi'] = [
+        'title' => "Documentation GLPI",
+        'description' => "Réalisation de deux documentations pour GLPI. La première utilisateur afin d'accompagner celui dans l'utilisation de l'outil de manière simple à travers des cas d'usage concrets. La seconde technique afin de procéder à l'installation de GLPI sur une machine Debian13",
+        'img' => [
+            'src' => './img/glpi.webp',
+            'alt' => 'logo glpi'
+            ],
+        'button' => [
+            'label' => 'Mes compétences',
+            'url' => './fichiers/tableau.pdf'
+            ],
+        'section' => [
+                [
+                    "hn" => "h2",
+                    'title' => 'La documentation utilisateur',
+                    'description' => "",
+                    'img' => null,
+                    'button' => [
+                        'label' => 'Télécharger',
+                        'url' => './fichiers/documentation_utilisateur_GLPI.pdf'
+                    ]
+                ],
+                [
+                    "hn" => "h2",
+                    'title' => 'La documentation technique',
+                    'description' => "",
+                    'img' => null,
+                    'button' => [
+                        'label' => 'Télécharger',
+                        'url' => './fichiers/documentation_technique_GLPI.pdf'
+                    ]
+                ]
+            ],
+        "end" => [
+            "title" => "Les compétences que j'ai validé avec ce projet:",
+            "skills" => [
+                [
+                    "skill" => "✅ Gérer le patrimoine informatique"
+                ],
+                [
+                    "skill" => "✅ Répondre aux incidents et aux demandes d'assistance et d'évolution"
+                ]
+            ]
+        ]
+    ];
     // $bdd['modèle'] = [
     //     'title' => '',
     //     'description' => "",
@@ -321,6 +422,7 @@
     //         'url' => ''
     //         ],
     //     'section' => [
+    //         [
     //            "hn" => "",
     //             'title' => '',
     //             'description' => "",
@@ -333,6 +435,42 @@
     //                 'url' => ''
     //             ] 
     //         ]
+    //     ],
+    //     "end" => [
+    //         "title" => "",
+    //         "skills" => [
+    //             [
+    //                 "skill" => "✅"
+    //             ]
+    //         ]
+    //     ]
+    // ];
+    // $bdd['modèle'] = [
+    //     'title' => '',
+    //     'description' => "",
+    //     'img' => [
+    //         'src' => '',
+    //         'alt' => ''
+    //         ],
+    //     'button' => [
+    //         'label' => '',
+    //         'url' => ''
+    //         ],
+    //     'section' => [
+    //         [
+    //            "hn" => "",
+    //             'title' => '',
+    //             'description' => "",
+    //             'img' => [
+    //                 'src' => '',
+    //                 'alt' => ''
+    //             ],
+    //             'button' => [
+    //                 'label' => '',
+    //                 'url' => ''
+    //             ] 
+    //         ]
+    //     ],
     //     "end" => [
     //         "title" => "",
     //         "skills" => [
